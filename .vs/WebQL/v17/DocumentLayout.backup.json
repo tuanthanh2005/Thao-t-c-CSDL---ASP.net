@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\4.ASP.NET_DangHoc\\WebQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|D:\\4.ASP.NET_DangHoc\\WebQL\\webql\\qlkhoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\qlkhoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|D:\\4.ASP.NET_DangHoc\\WebQL\\webql\\qlsinhvien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\qlsinhvien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|D:\\4.ASP.NET_DangHoc\\WebQL\\webql\\qlmonhoc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\qlmonhoc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 324,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLKhoa.aspx",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLKhoa.aspx",
+              "RelativeDocumentMoniker": "WebQL\\QLKhoa.aspx",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLKhoa.aspx",
+              "RelativeToolTip": "WebQL\\QLKhoa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-14T07:41:13.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLSinhVien.aspx",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLSinhVien.aspx",
+              "RelativeDocumentMoniker": "WebQL\\QLSinhVien.aspx",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLSinhVien.aspx*",
+              "RelativeToolTip": "WebQL\\QLSinhVien.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-14T07:41:10.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.Master",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Site.Master",
+              "RelativeDocumentMoniker": "WebQL\\Site.Master",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Site.Master",
+              "RelativeToolTip": "WebQL\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-14T07:20:25.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QLMonHoc.aspx",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLMonHoc.aspx",
+              "RelativeDocumentMoniker": "WebQL\\QLMonHoc.aspx",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLMonHoc.aspx",
+              "RelativeToolTip": "WebQL\\QLMonHoc.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-14T07:19:54.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 76,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ba58fdf3-7af7-4b60-b69b-40ac68d83b75}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
