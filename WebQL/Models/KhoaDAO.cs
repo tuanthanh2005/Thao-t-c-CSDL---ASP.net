@@ -51,11 +51,11 @@ namespace WebQL.Models
                 using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["WebQLDaoTao_Constr1"].ConnectionString))
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("DELETE FROM Khoa WHERE MaKH=@makh", conn))
-                    {
+                    SqlCommand cmd = new SqlCommand("delete from Khoa where makh=@makh", conn);
+                   
                         cmd.Parameters.AddWithValue("@makh", kh.MaKH);
                         return cmd.ExecuteNonQuery();
-                    }
+                    
                 }
             }
             catch (Exception ex)

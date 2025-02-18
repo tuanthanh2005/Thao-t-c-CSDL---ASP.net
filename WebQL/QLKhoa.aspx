@@ -48,7 +48,8 @@
     
     
     
-    <asp:GridView ID="gvKhoa" runat="server" CssClass="table table-bordered" AutoGenerateColumns="False" DataSourceID="odsKhoa" DataKeyName="MaKH">
+    <asp:GridView ID="gvKhoa" runat="server" CssClass="table table-bordered"
+        AutoGenerateColumns="False" DataSourceID="odsKhoa" DataKeyNames="MaKH" >
         <Columns>
             <asp:BoundField DataField="MaKH" HeaderText="Mã Khoa" ReadOnly="True"/>
             <asp:BoundField DataField="TenKH" HeaderText="Tên Khoa" />
