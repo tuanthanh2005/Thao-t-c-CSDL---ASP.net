@@ -22,8 +22,8 @@ namespace WebQL
 
         private void LienKetDuLieu()
         {
-            gvMonhoc.DataSource = mhDao.getAll();
-            gvMonhoc.DataBind();
+            gvMonhoc.DataSource = mhDao.getAll(); // hiển thị danh sách trong database
+            gvMonhoc.DataBind(); // để hiển thị ra giao diện
         }
 
         protected void gvMonhoc_SelectedIndexChanged(object sender, EventArgs e)
@@ -85,6 +85,12 @@ namespace WebQL
             int sotiet = int.Parse(txtSoTiet.Text);
             MonHoc mh = new MonHoc { MaMH = mamh,TenMH = tenmh,SoTiet = sotiet};
             mhDao.Insert(mh);
+            LienKetDuLieu();
+        }
+
+        protected void gvMonhoc_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            gvMonhoc.PageIndex = e.NewPageIndex;
             LienKetDuLieu();
         }
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Data.SqlClient;
+using System.Data.SqlClient;// cho phpes lập trình sử dụng thư viện kết nối server d
 using System.Configuration;
 using System.Net.Sockets;
 namespace WebQL.Models
