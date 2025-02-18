@@ -54,12 +54,12 @@
         <%--hiển thị dữ liệu--%>
 
 
-          <asp:GridView ID="gvMonhoc" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None"
+          <asp:GridView ID="gvMonhoc" runat="server" AutoGenerateColumns="False"
             OnRowCancelingEdit="gvMonhoc_RowCancelingEdit" OnRowEditing="gvMonhoc_RowEditing" OnSelectedIndexChanged="gvMonhoc_SelectedIndexChanged"
             OnSelectedIndexChanging="gvMonhoc_SelectedIndexChanging" DataKeyNames="MaMH" OnRowUpdating="gvMonhoc_RowUpdating" OnRowDeleting="gvMonhoc_RowDeleting" AllowPaging="True" PageSize="3">
-            <AlternatingRowStyle BackColor="White" />
+            <AlternatingRowStyle CssClass="table table-bordered" />
 
-
+              <%--AutoGenerateColumns="False" ko sản sinh ra cột--%> 
             <Columns>
                 <asp:BoundField HeaderText="Mã môn học" DataField="MaMH" />
                 <asp:BoundField HeaderText="Tên môn học" DataField="TenMH" />
@@ -70,15 +70,6 @@
 
 
 
-            <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-            <HeaderStyle BackColor="#990000" ForeColor="#ffffff" Font-Bold="True" />
-            <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
-            <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
-            <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
-            <SortedAscendingCellStyle BackColor="#FDF5AC" />
-            <SortedAscendingHeaderStyle BackColor="#4D0000" />
-            <SortedDescendingCellStyle BackColor="#FCF6C0" />
-              <SortedDescendingHeaderStyle BackColor="#820000" />
         </asp:GridView>
     </div>
     <sorteddescendingheaderstyle backcolor="#6F8DAE" />

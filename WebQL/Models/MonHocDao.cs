@@ -59,7 +59,7 @@ namespace WebQL.Models
                 // Sau khi xóa dữ liệu liên quan, mới xóa môn học
                 SqlCommand cmd2 = new SqlCommand("DELETE FROM monhoc WHERE mamh = @mamh", conn);
                 cmd2.Parameters.AddWithValue("@mamh", mamh);
-                return cmd2.ExecuteNonQuery();
+                return cmd2.ExecuteNonQuery(); 
             }
 
 
