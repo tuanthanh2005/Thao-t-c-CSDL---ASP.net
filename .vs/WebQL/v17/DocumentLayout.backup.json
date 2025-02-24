@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\4.ASP.NET_DangHoc\\WebQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|D:\\4.ASP.NET_DangHoc\\WebQL\\webql\\models\\khoadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\qlmonhoc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\qlmonhoc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\qlmonhoc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\qlmonhoc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\models\\khoadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\models\\khoadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\qlkhoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|D:\\4.ASP.NET_DangHoc\\WebQL\\webql\\qlkhoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\qlkhoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\models\\khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|D:\\4.ASP.NET_DangHoc\\WebQL\\webql\\models\\khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\models\\khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 324,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "QLMonHoc.aspx",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLMonHoc.aspx",
+              "RelativeDocumentMoniker": "WebQL\\QLMonHoc.aspx",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLMonHoc.aspx",
+              "RelativeToolTip": "WebQL\\QLMonHoc.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-24T16:48:14.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLMonHoc.aspx.cs",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLMonHoc.aspx.cs",
+              "RelativeDocumentMoniker": "WebQL\\QLMonHoc.aspx.cs",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLMonHoc.aspx.cs",
+              "RelativeToolTip": "WebQL\\QLMonHoc.aspx.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv1oAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T16:48:15.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Khoa.cs",
               "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\Khoa.cs",
               "RelativeDocumentMoniker": "WebQL\\Models\\Khoa.cs",
@@ -55,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "QLKhoa.aspx.cs",
               "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLKhoa.aspx.cs",
               "RelativeDocumentMoniker": "WebQL\\QLKhoa.aspx.cs",
@@ -68,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "QLKhoa.aspx",
               "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\QLKhoa.aspx",
               "RelativeDocumentMoniker": "WebQL\\QLKhoa.aspx",
@@ -81,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "KhoaDAO.cs",
               "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KhoaDAO.cs",
               "RelativeDocumentMoniker": "WebQL\\Models\\KhoaDAO.cs",

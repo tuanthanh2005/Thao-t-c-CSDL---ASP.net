@@ -56,7 +56,7 @@
 
           <asp:GridView ID="gvMonhoc" runat="server" AutoGenerateColumns="False"
             OnRowCancelingEdit="gvMonhoc_RowCancelingEdit" OnRowEditing="gvMonhoc_RowEditing" OnSelectedIndexChanged="gvMonhoc_SelectedIndexChanged"
-            OnSelectedIndexChanging="gvMonhoc_SelectedIndexChanging" DataKeyNames="MaMH" OnRowUpdating="gvMonhoc_RowUpdating" OnRowDeleting="gvMonhoc_RowDeleting" AllowPaging="True" PageSize="3">
+            OnSelectedIndexChanging="gvMonhoc_SelectedIndexChanging" DataKeyNames="MaMH" OnRowUpdating="gvMonhoc_RowUpdating" OnRowDeleting="gvMonhoc_RowDeleting" AllowPaging="True" PageSize="2" OnPageIndexChanging="gvMonhoc_PageIndexChanging1">
             <AlternatingRowStyle CssClass="table table-bordered" />
 
               <%--AutoGenerateColumns="False" ko sản sinh ra cột--%> 

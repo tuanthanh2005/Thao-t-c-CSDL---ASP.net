@@ -88,7 +88,8 @@ namespace WebQL
             LienKetDuLieu();
         }
 
-        protected void gvMonhoc_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    
+        protected void gvMonhoc_PageIndexChanging1(object sender, GridViewPageEventArgs e)
         {
             gvMonhoc.PageIndex = e.NewPageIndex;
             LienKetDuLieu();
