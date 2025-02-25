@@ -67,7 +67,7 @@
                 <asp:CommandField ButtonType="Button" ShowEditButton="True" ShowDeleteButton="true" />
 
             </Columns>
-
+                    <PagerStyle CssClass ="pagination-ys" HorizontalAlign="Center" BackColor="#FFFFCC" ForeColor="#330099" />
 
 
         </asp:GridView>

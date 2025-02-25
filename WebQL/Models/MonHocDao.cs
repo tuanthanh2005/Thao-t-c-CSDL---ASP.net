@@ -40,7 +40,7 @@ namespace WebQL.Models
             SqlCommand cmd = new SqlCommand("update monhoc set tenmh=@tenmh , sotiet=@sotiet where mamh=@mamh", conn);
             cmd.Parameters.AddWithValue("@tenmh", mh.TenMH);
             cmd.Parameters.AddWithValue("@sotiet", mh.SoTiet);
-            cmd.Parameters.AddWithValue("@mamh", mh.MaMH);
+            cmd.Parameters.AddWithValue("@makh", mh.MaMH);
             //3.thuc thi ket qua;
             return cmd.ExecuteNonQuery();
         }
