@@ -82,6 +82,26 @@ namespace WebQL.Models
             {
                 return 0; // Trả về 0 nếu có lỗi xảy ra
             }
+
+        }
+        public int Insert(SinhVien sv)
+        {
+            SqlConnection conn = new
+SqlConnection(ConfigurationManager.ConnectionStrings["WebQLDaoTao_ConStr1"].ConnectionString);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("INSERT INTO sinhvien (masv, hosv, tensv, gioitinh, ngaysinh, noisinh, diachi, makh) VALUES (@masv, @hosv, @tensv, @gioitinh, @ngaysinh, @noisinh, @diachi, @makh)", conn);
+
+            cmd.Parameters.AddWithValue("@masv", sv.MaSV);  // Đảm bảo MaSV có giá trị hợp lệ
+            cmd.Parameters.AddWithValue("@hosv", sv.HoSV);
+            cmd.Parameters.AddWithValue("@tensv", sv.TenSV);
+            cmd.Parameters.AddWithValue("@gioitinh", sv.GioiTinh);
+            cmd.Parameters.AddWithValue("@ngaysinh", sv.NgaySinh);
+            cmd.Parameters.AddWithValue("@noisinh", sv.NoiSinh);
+            cmd.Parameters.AddWithValue("@diachi", sv.DiaChi);
+            cmd.Parameters.AddWithValue("@makh", sv.MaKH);
+
+            //3.thuc thi ket qua;
+            return cmd.ExecuteNonQuery();
         }
 
     }
