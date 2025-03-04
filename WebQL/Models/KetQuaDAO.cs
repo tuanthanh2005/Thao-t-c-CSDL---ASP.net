@@ -5,39 +5,42 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection;
 using System.Web;
-using WebQLDaoTao.Models;
+using WebQL.Models;
 
 namespace WebQL.Models
 {
     public class KetQuaDAO
     {
         //--------doc danh sach cac kết quả theo mã môn học trong CSDL-----------------
-        public List<KetQua> getAll()
+        public List<KetQua> getByMaMH(string mamh)
         {
-            List<KetQua> dsKetQua = new List<KetQua>();
+            List<KetQua> ds = new List<KetQua>();
             //1.Mo ket noi CSDL
-            SqlConnection conn = new
-            SqlConnection(ConfigurationManager.ConnectionStrings["WebQLDaoTao_Constr1"].ConnectionString);
+            SqlConnection conn = new   SqlConnection(ConfigurationManager.ConnectionStrings["WebQLDaoTao_Constr1"].ConnectionString);
             conn.Open();
             //2.tao truy van
-            SqlCommand cmd = new SqlCommand("select * from ketqua", conn);
-            
+            SqlCommand cmd = new SqlCommand("select * from ketqua where mamh=@mamh", conn);
+            cmd.Parameters.AddWithValue("@mamh", mamh);
             //3.thuc thi ket qua;
             SqlDataReader rd = cmd.ExecuteReader();
             //4.xu ly ket qua tra ve
             while (rd.Read())
             {
                 //tao doi tuong ketqua
-                KetQua kq = new KetQua();
-                kq.Id = int.Parse(rd["Id"].ToString());
-                kq.MaSV = rd["Masv"].ToString();
-                kq.MaMH = rd["mamh"].ToString();
-                kq.Diem = string.IsNullOrEmpty(rd["diem"].ToString()) ? 0 : float.Parse(rd["diem"].ToString()); 
- 
-                //add vao list
-                dsKetQua.Add(kq);
+                KetQua kq = new KetQua()
+                {
+                    Id = int.Parse(rd["id"].ToString()), // id chuyển thành Int
+                    MaSV = rd["MaSV"].ToString(), // masv chuyển thành string
+                    MaMH = rd["mamh"].ToString() // mamh chuyển thành string
+
+                };
+                if (!string.IsNullOrEmpty(rd["diem"].ToString())) // nếu có điểm sẽ là false , null là true;
+                {
+                    kq.Diem = float.Parse(rd["diem"].ToString());
+                }
+                ds.Add(kq);
             }
-            return dsKetQua;
+            return ds;
         }
       
     }
