@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QLSinhVien.aspx.cs" Inherits="WebQL.QLSinhVien" %>
+﻿vv<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QLSinhVien.aspx.cs" Inherits="WebQL.QLSinhVien" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
@@ -40,7 +40,7 @@
                         <asp:TextBox ID="txtTenSV" runat="server" CssClass="form-control"></asp:TextBox>
                     </div>
                 </div>
-                <div class="form-group">
+                  <div class="form-group">
                     <label class="control-label col-md-2">Giới tính</label>
                     <div class="col-md-4">
                         <asp:RadioButton ID="rdNam" runat="server" Text="Nam" CssClass="radio-inline" Checked="true"
@@ -92,15 +92,30 @@
                     <%--hạn chế khoảng cách khi sửa chỉnh controlstyle--%>
                     <asp:BoundField DataField="TenSV" HeaderText="TenSV" SortExpression="TenSV" ControlStyle-Width="60px" />
                     <%--<asp:CheckBoxField DataField="GioiTinh" HeaderText="GioiTinh" SortExpression="GioiTinh" />--%>
-                    <asp:TemplateField>
+                    <asp:TemplateField HeaderText="Phái">
                         <ItemTemplate>
                             <%# Convert.ToBoolean(Eval("GioiTinh"))==true?"Nam":"Nữ" %>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:CheckBox ID="ckphai" runat="server" Checked='<%# Bind("gioitinh") %>' />
+                        </EditItemTemplate>
                     </asp:TemplateField>
                     <asp:BoundField DataField="NgaySinh" HeaderText="NgaySinh" SortExpression="NgaySinh" DataFormatString="{0:dd/MM/yyyy}" />
                     <asp:BoundField DataField="NoiSinh" HeaderText="NoiSinh" SortExpression="NoiSinh" />
                     <asp:BoundField DataField="DiaChi" HeaderText="DiaChi" SortExpression="DiaChi" />
-                    <asp:BoundField DataField="MaKH" HeaderText="MaKH" SortExpression="MaKH" />
+                    <%--<asp:BoundField DataField="MaKH" HeaderText="MaKH" SortExpression="MaKH" />--%>
+                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <%# Eval("Makh") %>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:DropDownList ID="ddlKhoa" runat="server" DataSourceID="odsKhoa" DataTextField="TenKh" DataValueField="MaKh"
+                                SelectedValue ='<%# Bind("MaKH") %>'>
+                            </asp:DropDownList>
+                        </EditItemTemplate>
+                    </asp:TemplateField>
+               
+                    
                     <asp:CommandField ShowEditButton="true" ShowDeleteButton="true" ButtonType="Button"
                         EditText="Sửa" DeleteText="Xóa" ItemStyle-Wrap="false" />
                 </Columns>
@@ -123,9 +138,6 @@
                 DeleteMethod="Delete"></asp:ObjectDataSource>
 
         </div>
-        <asp:ObjectDataSource  ID="odsKhoa" runat="server" SelectMethod="getAll" TypeName="WebQL.Models.KhoaDAO" DataObjectTypeName="WebQL.Models.Khoa" DeleteMethod="Delete" InsertMethod="Insert" UpdateMethod="Update">
-
-        </asp:ObjectDataSource>
+        <asp:ObjectDataSource ID="odsKhoa" runat="server" SelectMethod="getAll" TypeName="WebQL.Models.KhoaDAO" DataObjectTypeName="WebQL.Models.Khoa" DeleteMethod="Delete" InsertMethod="Insert" UpdateMethod="Update"></asp:ObjectDataSource>
         <%--responsive để hiển thị thanh kéo ngang--%>
 </asp:Content>
-

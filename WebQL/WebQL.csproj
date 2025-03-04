@@ -74,8 +74,11 @@
     <Content Include="QLMonHoc.aspx" />
     <Content Include="QLSinhVien.aspx" />
     <Content Include="Web.config" />
+    <Content Include="NhapDiem.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\KetQua.cs" />
+    <Compile Include="Models\KetQuaDAO.cs" />
     <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -120,6 +123,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NhapDiem.aspx.cs">
+      <DependentUpon>NhapDiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NhapDiem.aspx.designer.cs">
+      <DependentUpon>NhapDiem.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
