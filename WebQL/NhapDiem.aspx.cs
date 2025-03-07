@@ -11,6 +11,7 @@ namespace WebQL
     public partial class NhapDiem : System.Web.UI.Page
     {
         KetQuaDAO kqDAO = new KetQuaDAO();
+        KetQua kq= new KetQua();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -24,13 +25,31 @@ namespace WebQL
                     // lấy id (datakeys) của dòng
                     int id = int.Parse(gvKetQua.DataKeys[i].Value.ToString());
                     float diem = float.Parse(((TextBox)gvKetQua.Rows[i].FindControl("txtDiem")).Text);
-                    kqDAO.Update(id, diem); 
+                    kqDAO.Update(id, diem);
                 }
                 Response.Write("<script> alert('Lưu Điểm thành Công </script>");
-                }
-                catch (Exception ex) {
+            }
+            catch (Exception ex) {
                 Response.Write("<script> alert('Lưu Điểm Thất Bại </script>");
             }
         }
+
+        protected void btxoa_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < gvKetQua.Rows.Count; i++)
+            {
+                // lấy id (datakeys) của dòng
+                int id = int.Parse(gvKetQua.DataKeys[i].Value.ToString());
+                CheckBox chon = (CheckBox)gvKetQua.Rows[i].FindControl("ckChon");
+                if (chon.Checked)
+                {
+                    // goij lip DAO xia khoi csdl
+                    kqDAO.Delete(id);
+                }
+            }
+           gvKetQua.DataBind();
+        }
+      
+    } 
+        
     }
-}

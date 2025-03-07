@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\4.ASP.NET_DangHoc\\WebQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\nhapdiem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\nhapdiem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\nhapdiem.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\nhapdiem.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\models\\ketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\models\\ketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\models\\ketquadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\models\\ketquadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|D:\\4.ASP.NET_DangHoc\\WebQL\\webql\\models\\ketquadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\models\\ketquadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\models\\sinhviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\models\\sinhviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\models\\khoadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\models\\khoadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|d:\\4.asp.net_danghoc\\webql\\webql\\nhapdiem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F0241A68-3C46-4FED-83DC-409150A67007}|WebQL\\WebQL.csproj|solutionrelative:webql\\nhapdiem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,32 +47,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "KetQua.cs",
-              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KetQua.cs",
-              "RelativeDocumentMoniker": "WebQL\\Models\\KetQua.cs",
-              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KetQua.cs",
-              "RelativeToolTip": "WebQL\\Models\\KetQua.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SinhVienDAO.cs",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\SinhVienDAO.cs",
+              "RelativeDocumentMoniker": "WebQL\\Models\\SinhVienDAO.cs",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\SinhVienDAO.cs",
+              "RelativeToolTip": "WebQL\\Models\\SinhVienDAO.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwC8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:20:46.143Z",
+              "WhenOpened": "2025-03-07T03:24:43.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NhapDiem.aspx.cs",
-              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\NhapDiem.aspx.cs",
-              "RelativeDocumentMoniker": "WebQL\\NhapDiem.aspx.cs",
-              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\NhapDiem.aspx.cs",
-              "RelativeToolTip": "WebQL\\NhapDiem.aspx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABKAAAAAAAAAA==",
+              "Title": "KetQuaDAO.cs",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KetQuaDAO.cs",
+              "RelativeDocumentMoniker": "WebQL\\Models\\KetQuaDAO.cs",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KetQuaDAO.cs",
+              "RelativeToolTip": "WebQL\\Models\\KetQuaDAO.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:18:14.283Z",
+              "WhenOpened": "2025-03-07T03:17:51.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NhapDiem.aspx.cs",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\NhapDiem.aspx.cs",
+              "RelativeDocumentMoniker": "WebQL\\NhapDiem.aspx.cs",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\NhapDiem.aspx.cs",
+              "RelativeToolTip": "WebQL\\NhapDiem.aspx.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:17:46.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KhoaDAO.cs",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KhoaDAO.cs",
+              "RelativeDocumentMoniker": "WebQL\\Models\\KhoaDAO.cs",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KhoaDAO.cs",
+              "RelativeToolTip": "WebQL\\Models\\KhoaDAO.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:47:32.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NhapDiem.aspx",
               "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\NhapDiem.aspx",
               "RelativeDocumentMoniker": "WebQL\\NhapDiem.aspx",
@@ -76,20 +106,7 @@
               "RelativeToolTip": "WebQL\\NhapDiem.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-07T02:17:46.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KetQuaDAO.cs",
-              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KetQuaDAO.cs",
-              "RelativeDocumentMoniker": "WebQL\\Models\\KetQuaDAO.cs",
-              "ToolTip": "D:\\4.ASP.NET_DangHoc\\WebQL\\WebQL\\Models\\KetQuaDAO.cs",
-              "RelativeToolTip": "WebQL\\Models\\KetQuaDAO.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:36:39.545Z",
+              "WhenOpened": "2025-03-07T02:37:46.444Z",
               "EditorCaption": ""
             }
           ]

@@ -30,7 +30,7 @@
                         <asp:CheckBox ID="ckChon" runat="server" />
                 </ItemTemplate>
                 <FooterTemplate>
-                         <asp:Button ID="btxoa" runat="server" Text="Xóa" />
+                         <asp:Button ID="btxoa" runat="server" Text="Xóa" CssClass="btn btn-success" OnClick="btxoa_Click"/>  
                 </FooterTemplate>
             </asp:TemplateField>
 
