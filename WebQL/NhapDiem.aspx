@@ -15,6 +15,7 @@
     <asp:GridView ID="gvKetQua" runat="server" CssClass="table table-bordered" AutoGenerateColumns="False" DataSourceID="odsKetQua" Width="70%" DataKeyNames="Id" ShowFooter="True">
         <Columns>
             <asp:BoundField DataField="MaSV" HeaderText="MaSV" SortExpression="MaSV" />
+            <asp:BoundField DataField="hotensv" HeaderText="Ho Ten Sinh Vien" />
             <%--cho phép sửa tất cả điểm cùng 1 lúc--%>
             <asp:TemplateField HeaderText="Điểm">
                 <ItemTemplate>

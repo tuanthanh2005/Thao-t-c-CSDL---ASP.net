@@ -21,7 +21,7 @@ namespace WebQL.Models
             SqlConnection conn = new   SqlConnection(ConfigurationManager.ConnectionStrings["WebQLDaoTao_Constr1"].ConnectionString);
             conn.Open();
             //2.tao truy van
-            SqlCommand cmd = new SqlCommand("select * from ketqua where mamh=@mamh", conn);
+            SqlCommand cmd = new SqlCommand("select ketqua.*,hosv,tensv from ketqua inner join sinhvien on ketqua.masv=sinhvien.masv where mamh=@mamh", conn);
             cmd.Parameters.AddWithValue("@mamh", mamh);
             //3.thuc thi ket qua;
             SqlDataReader rd = cmd.ExecuteReader();
@@ -33,7 +33,8 @@ namespace WebQL.Models
                 {
                     Id = int.Parse(rd["id"].ToString()), // id chuyển thành Int
                     MaSV = rd["MaSV"].ToString(), // masv chuyển thành string
-                    MaMH = rd["mamh"].ToString() // mamh chuyển thành string
+                    MaMH = rd["mamh"].ToString(), // mamh chuyển thành string
+                    HoTenSV = rd["hosv"].ToString() + " " + rd["tensv"].ToString()
 
                 };
                 if (!string.IsNullOrEmpty(rd["diem"].ToString())) // nếu có điểm sẽ là false , null là true;
