@@ -49,7 +49,34 @@ namespace WebQL
             }
            gvKetQua.DataBind();
         }
-      
+
+        protected void ckAll_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ckAll_Click1(object sender, EventArgs e)
+        {
+
+        }
+    
+
+        protected void ckAll_CheckedChanged(object sender, EventArgs e)
+        {
+            bool checkSate = ((CheckBox)gvKetQua.HeaderRow.FindControl("ckAll")).Checked;
+            for (int i = 0; i < gvKetQua.Rows.Count; i++)
+            {
+
+                CheckBox chon = (CheckBox)gvKetQua.Rows[i].FindControl("ckChon");
+                chon.Checked = checkSate;
+
+            }
+        }
+
+        protected void gvKetQua_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     } 
         
     }
