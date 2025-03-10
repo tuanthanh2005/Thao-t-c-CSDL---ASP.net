@@ -27,28 +27,38 @@ namespace WebQL
                     float diem = float.Parse(((TextBox)gvKetQua.Rows[i].FindControl("txtDiem")).Text);
                     kqDAO.Update(id, diem);
                 }
-                Response.Write("<script> alert('Lưu Điểm thành Công </script>");
+                Response.Write("<script> alert('Lưu Điểm thành Công') </script>");
             }
             catch (Exception ex) {
-                Response.Write("<script> alert('Lưu Điểm Thất Bại </script>");
+                Response.Write("<script> alert('Lưu Điểm Thất Bại ')</script>");
             }
         }
 
         protected void btxoa_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < gvKetQua.Rows.Count; i++)
-            {
-                // lấy id (datakeys) của dòng
-                int id = int.Parse(gvKetQua.DataKeys[i].Value.ToString());
-                CheckBox chon = (CheckBox)gvKetQua.Rows[i].FindControl("ckChon");
-                if (chon.Checked)
+            try {
+                for (int i = 0; i < gvKetQua.Rows.Count; i++)
                 {
-                    // goij lip DAO xia khoi csdl
-                    kqDAO.Delete(id);
+                    // lấy id (datakeys) của dòng
+                    int id = int.Parse(gvKetQua.DataKeys[i].Value.ToString());
+                    CheckBox chon = (CheckBox)gvKetQua.Rows[i].FindControl("ckChon");
+                    if (chon.Checked)
+                    {
+                        // goij lip DAO xia khoi csdl
+                        kqDAO.Delete(id);
+                    }
+             
                 }
+
+                Response.Write("<script> alert('Xóa thành Công') </script>");
+                gvKetQua.DataBind();
             }
-           gvKetQua.DataBind();
-        }
+            catch(Exception ex)
+            {
+                Response.Write("<script> alert('Xóa Thất Bại ')</script>");
+            }
+            }
+        
 
         protected void ckAll_Click(object sender, EventArgs e)
         {
