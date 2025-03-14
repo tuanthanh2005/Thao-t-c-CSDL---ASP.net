@@ -68,7 +68,12 @@
                                 <li><a href="QLSinhVien.aspx">Sinh viên</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Quản lý điểm thi</a></li>p
+                        <li><a href="#">Quản lý điểm thi</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="Logout.aspx">Logout</a>
+                          </li>
                     </ul>
                 </div>
             </div>
@@ -91,7 +96,7 @@
             </div>
         </div>
         <footer class="container-fluid text-center">
-            <p>Sinh thực hiện: MSSV - HOTEN</p>
+            <p>Sinh thực hiện: MSSV 2321160001 - HOTEN : Tran Thanh Tuan c23a.Th1</p>
         </footer>
     </form>
 </body>

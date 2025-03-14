@@ -16,14 +16,14 @@
     <h2>QUẢN LÝ MÔN HỌC</h2>
     <hr />
     <div>
-         <%-- Nút Thêm --%>
+        <%-- Nút Thêm --%>
         <asp:Button ID="btShowForm" runat="server" Text="Thêm" CssClass="btn btn-info" OnClientClick="showAddForm(); return false;" />
-        
+
         <%-- Form thêm môn học --%>
-        <div id="addForm" style="display:none;">
+        <div id="addForm" style="display: none;">
             <h4>THÊM MỚI MÔN HỌC</h4>
             <hr>
-            <div class="form-horizontal">
+          <div class="form-horizontal">
                 <div class="form-group">
                     <label class="control-label col-sm-2">Mã môn:</label>
                     <div class="col-sm-10">
@@ -54,20 +54,19 @@
         <%--hiển thị dữ liệu--%>
 
 
-          <asp:GridView ID="gvMonhoc" runat="server" AutoGenerateColumns="False"
+        <asp:GridView ID="gvMonhoc" runat="server" AutoGenerateColumns="False"
             OnRowCancelingEdit="gvMonhoc_RowCancelingEdit" OnRowEditing="gvMonhoc_RowEditing" OnSelectedIndexChanged="gvMonhoc_SelectedIndexChanged"
             OnSelectedIndexChanging="gvMonhoc_SelectedIndexChanging" DataKeyNames="MaMH" OnRowUpdating="gvMonhoc_RowUpdating" OnRowDeleting="gvMonhoc_RowDeleting" AllowPaging="True" PageSize="2" OnPageIndexChanging="gvMonhoc_PageIndexChanging1">
             <AlternatingRowStyle CssClass="table table-bordered" />
 
-              <%--AutoGenerateColumns="False" ko sản sinh ra cột--%> 
+            <%--AutoGenerateColumns="False" ko sản sinh ra cột--%>
             <Columns>
                 <asp:BoundField HeaderText="Mã môn học" DataField="MaMH" />
                 <asp:BoundField HeaderText="Tên môn học" DataField="TenMH" />
                 <asp:BoundField HeaderText="Số tiết" DataField="SoTiet" />
                 <asp:CommandField ButtonType="Button" ShowEditButton="True" ShowDeleteButton="true" />
-
             </Columns>
-                    <PagerStyle CssClass ="pagination-ys" HorizontalAlign="Center" BackColor="#FFFFCC" ForeColor="#330099" />
+            <PagerStyle CssClass="pagination-ys" HorizontalAlign="Center" BackColor="#FFFFCC" ForeColor="#330099" />
 
 
         </asp:GridView>

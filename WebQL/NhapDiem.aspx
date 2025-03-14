@@ -25,7 +25,7 @@
                     <asp:Button ID="btluu" runat="server" Text="Lưu"  CssClass="btn btn-success" OnClick="btLuu_Click"/>              
                 </FooterTemplate>
             </asp:TemplateField>
-            <asp:TemplateField HeaderText="Chọn xóa">
+            <asp:TemplateField   HeaderText="Chọn xóa">
                 <HeaderTemplate>
                     <asp:CheckBox ID="ckAll" runat="server" Text="Chọn Tất Cả"  AutoPostBack ="true" OnCheckedChanged="ckAll_CheckedChanged"/>  
                 </HeaderTemplate>
